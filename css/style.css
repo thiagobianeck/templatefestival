@@ -1,0 +1,72 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.embed-responsive {
+    position: relative;
+    background-image: url(../img/banda.jpg);
+    height: 50rem;
+    background-position: center center;
+}
+
+.embed-responsive::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a90329+0,8f0222+44,440010+100&0.5+0,0.7+100 */
+    background: -moz-linear-gradient(45deg, rgba(169,3,41,0.5) 0%, rgba(143,2,34,0.59) 44%, rgba(68,0,16,0.7) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, rgba(169,3,41,0.5) 0%,rgba(143,2,34,0.59) 44%,rgba(68,0,16,0.7) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, rgba(169,3,41,0.5) 0%,rgba(143,2,34,0.59) 44%,rgba(68,0,16,0.7) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80a90329', endColorstr='#b3440010',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+@media (min-width: 992px) {
+    .embed-responsive {
+        background-image: unset;
+        height: auto;
+    }
+}
+
+.informacao-concerto {
+    position: absolute;
+    top: 20%;
+    z-index: 100;
+}
+
+@media (min-width: 992px) {
+    .informacao-concerto {
+        top: 35%;
+    }
+}
+
+.informacao-concerto  h1{
+    font-size: 3rem;
+    line-height: 6rem;
+}
+
+@media (min-width: 992px) {
+    .informacao-concerto h1{
+        font-size: 4rem;
+        line-height: unset;
+    }
+}
+
+.informacao-concerto h1 span,
+.informacao-concerto p {
+    font-weight: 700;
+    -webkit-box-shadow: 0px 6px 24px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 6px 24px -5px rgba(0,0,0,0.75);
+    box-shadow: 0px 6px 24px -5px rgba(0,0,0,0.75);
+}
+
+.informacao-concerto p {
+    font-size: 2rem;
+}
+
+.informacao-concerto .text-dark {
+    color: #f53756!important;
+    font-weight: 700;
+}
