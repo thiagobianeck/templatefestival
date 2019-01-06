@@ -125,3 +125,17 @@ body {
     font-weight: 700;
 }
 
+/** Boletos ***/
+
+.boletos .preco {
+    font-size: 2rem;
+}
+
+.boletos .active {
+    background-color: #752f97!important;
+    border-color: #752f97!important;
+}
+
+.list-group-item-success {
+    background-color: #4CB8B3!important;
+}
