@@ -115,3 +115,13 @@ body {
 .horario.bg-success li:nth-child(2n+2){
     background-color: #3ca8a2!important;
 }
+
+/** Data **/
+.data {
+    font-size: 2.8rem;
+}
+
+.data span {
+    font-weight: 700;
+}
+
